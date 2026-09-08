@@ -1,0 +1,5 @@
+print(3>2)
+print(3>=2)
+print(len("niang")==len("jiu"))
+print("1 is 1", 1 is 1)
+print("coding" in "coding of all")
