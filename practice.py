@@ -57,6 +57,34 @@
 # print("slope2 = ",(10-2)/(6-2), "Euclidean distance = ",(10-2)**2+(6-2)**2)
 # x = input("x")
 # y=x**2+6*x+9
-print(len("python")!=len("dragon"))
-print("on" in "dragon" and "on" in "python")
-print("jargon" in "I hope this course is not full of jargon.")
+# print(len("python")!=len("dragon"))
+# print("on" in "dragon" and "on" in "python")
+# print("jargon" in "I hope this course is not full of jargon.")
+# print("on" not in "dragon" and "on" not in "python")
+# length = float(len("python"))
+# string = str(length)
+# print(type(length)," ",length,type(string), " ", string)
+# a = int(input("print an natural number"))
+# print("even" if a%2==0 else "odd")
+# print(7//2==int(2.7))
+# print(5//2==int(2.7))
+# print(type("10")==type(10))
+# print(int(float("9.8"))==10)
+# hours = float(input("hours"))
+# rph = float(input("rate per hour"))
+# print("your weekly earning is %f",hours*rph)
+# years = float(input("enter number of years you have lived"))
+# print("you have lived for %.2f seconds",years*365*24*60*60)
+# i = 1
+# while(i<=5):
+#     print(i,"1",i,i*i,i*i*i)
+#     i+=1
+for k in range(1,6):
+    print(k,1,k,k*k,k*k*k)
+j = 1
+while(j<=5):
+    print(j,1,j,j*j,j*j*j, sep="")
+    j+=1
+for l in range(1,6):
+    print(f"{l}1{l}{l*l}{l*l*l}")
+
