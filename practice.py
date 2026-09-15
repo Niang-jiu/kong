@@ -79,12 +79,73 @@
 # while(i<=5):
 #     print(i,"1",i,i*i,i*i*i)
 #     i+=1
-for k in range(1,6):
-    print(k,1,k,k*k,k*k*k)
-j = 1
-while(j<=5):
-    print(j,1,j,j*j,j*j*j, sep="")
-    j+=1
-for l in range(1,6):
-    print(f"{l}1{l}{l*l}{l*l*l}")
+# for k in range(1,6):
+#     print(k,1,k,k*k,k*k*k)
+# j = 1
+# while(j<=5):
+#     print(j,1,j,j*j,j*j*j, sep="")
+#     j+=1
+# for l in range(1,6):
+#     print(f"{l}1{l}{l*l}{l*l*l}")
 
+# day 4
+
+# a,b,c,d = "Thirty", "Days", "Of", "Python"
+# e=a+" "+b+" "+c+" "+d
+# print(e)
+# g = ["Thirty","Days","Of","Python"]
+# h = " ".join(g)
+# print(h)
+# i,j,k,l = "Thirty","Days","Of","Python"
+# m = f"{i} {j} {k} {l}"
+# print(m)
+# a,b,c = "Coding","For","All"
+# d = a+" "+b+" "+c
+# e = ["Coding","For","All"]
+# g = " ".join(e)
+# h = f"{a} {b} {c}"
+# print(d,g,h,sep="\n")
+company = "Coding Of All"
+# print(company)
+# print(len(company))
+# print(company.upper())
+# print(company.lower())
+# print(company.capitalize())
+# print(company.title())
+# print(company.swapcase())
+# print(company.split())
+# print(company.split()[0])
+# print(company.replace("Coding","Python"))
+# a = "Coding"
+# print(company.find("Coding"))
+# print(company.index(a))
+# py = "python for everyone"
+# print(py.replace("everyone","all"))
+# print(company.split())
+# many = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+# print(many.split(", "))
+# code = "coding of all"
+# print(code[0])
+# print(code[-1])
+# print(code[len(code)-1])
+# print(code[10])
+# name = "Python For Everyone"
+# acronym = " ".join(word[0].upper() for word in name.split())
+# print(acronym)
+# name2 = "coding for all"
+# acronym2 = ",".join(word[0].upper() for word in name2.split())
+# print(acronym2)
+code = "Coding For All"
+print(code.index("C") == 0)
+print(code.index("F") == 0)
+print(code.startswith("C"))
+print(code.rfind("i"))
+sen = "You cannot end a sentence with because because because is a conjunction"
+print(sen.find("because"))
+print(sen.rindex("because"))
+start = sen.find("because because because")
+stop = start + len("because because because")
+phrase = sen[start:stop]
+print(phrase)
+print(code.startswith("Coding"))
+print(code.endswith("coding"))
