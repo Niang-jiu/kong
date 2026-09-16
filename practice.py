@@ -135,17 +135,31 @@ company = "Coding Of All"
 # name2 = "coding for all"
 # acronym2 = ",".join(word[0].upper() for word in name2.split())
 # print(acronym2)
-code = "Coding For All"
-print(code.index("C") == 0)
-print(code.index("F") == 0)
-print(code.startswith("C"))
-print(code.rfind("i"))
-sen = "You cannot end a sentence with because because because is a conjunction"
-print(sen.find("because"))
-print(sen.rindex("because"))
-start = sen.find("because because because")
-stop = start + len("because because because")
-phrase = sen[start:stop]
-print(phrase)
-print(code.startswith("Coding"))
-print(code.endswith("coding"))
+# code = "Coding For All"
+# print(code.index("C") == 0)
+# print(code.index("F") == 0)
+# print(code.startswith("C"))
+# print(code.rfind("i"))
+# sen = "You cannot end a sentence with because because because is a conjunction"
+# print(sen.find("because"))
+# print(sen.rindex("because"))
+# start = sen.find("because because because")
+# stop = start + len("because because because")
+# phrase = sen[start:stop]
+# print(phrase)
+# print(code.startswith("Coding"))
+# print(code.endswith("coding"))
+# str = '   Coding For All      '
+# a = str.find("C")
+# b = a+len(str)
+# print(str[a:b])
+# str = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+# print(("# ").join(str))
+# print("Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki")
+# radius = 10
+# area = 3.14*10**2
+# print("the area with radius {} is {} meter**2".format(radius,int(area)))
+# print(f"the area with radius {radius} is {int(area)} meter**2")
+a,b = int(8),int(6)
+print("{}+{}\n{}-{}\n{}*{}\n{}/{}\n{}//{}\n{}%{}\n{}**{}".format(a,b,a,b,a,b,a,b,a,b,a,b,a,b))
+print(f"{a}+{b}\n{a}-{b}\n{a}*{b}\n{a}/{b}\n{a}//{b}\n{a}%{b}\n{a}**{b}\n")
